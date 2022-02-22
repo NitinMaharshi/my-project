@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  color: black;
+}
+
+.container {
+  line-height: 3rem;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  font-size: 10px;
+  color: royalblue;
+  margin: 0 10px;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.nav:focus {
+  color: white;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputbox {
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem 2rem;
+}
